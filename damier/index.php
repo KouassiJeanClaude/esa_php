@@ -10,7 +10,9 @@
     display: flex;
     flex-wrap: wrap;
     width: 400px;
+    border: solid black;
     height: 400px;
+    border: solid black;
   }
   .case {
     width: 50px;
@@ -41,10 +43,10 @@
     transform: translate(-50%, -50%);
   }
   .pion.blanc {
-    background-color: #fff;
+    background-color: #ccc;
   }
   .pion.noir {
-    background-color: #000;
+    background-color: #fcc;
   }
 </style>
 </head>
