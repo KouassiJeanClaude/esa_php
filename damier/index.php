@@ -11,8 +11,10 @@
     flex-wrap: wrap;
     width: 400px;
     border: solid black;
+    padding: 1px;
     height: 400px;
     border: solid black;
+    padding: 1px;
   }
   .case {
     width: 50px;
