@@ -4,8 +4,7 @@ function palindrome($mot){
     $var = strtolower(str_replace(" ", " ", $mot));
     return $var === strrev($var);
 }
-echo "veuillez entrer un mot : ";
-$var = readline();
+$var = readline("veuillez entrer un mot : ");
 
 if (palindrome($var)) {
     echo "le $var encodé est un palindrome";
